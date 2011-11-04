@@ -1,0 +1,30 @@
+body {
+	background-color: #303030;
+	font-family: sans-serif;
+	font-size: 83.333%;
+	color: #FFFFFF;
+}
+
+/* Custom headings */
+h1 { margin-top: 0.603em; margin-bottom: 0.603em; color: #FFBFBF; font-size: 1.8em; font-weight: bold; }
+h2 { margin-top: 0.7747em; margin-bottom: 0.7747em; color: #FFDFBF; font-size: 1.4em; font-weight: bold; }
+
+/* Link colors */
+a:link { color: #BFBFFF; text-decoration: none; } /* 97C4CE */
+a:visited { color: #FFBFFF; } /* 83AAB2 */
+a:hover { text-decoration: underline; }
+
+div#header {
+    background-color: #404040;
+	height: 64px;
+	margin: 0 0 16px 0;
+}
+
+div#content {
+    background-color: #404040;
+}
+
+div#footer {
+    background-color: #404040;
+    margin: 16px 0 0 0;
+}
