@@ -14,17 +14,25 @@ a:link { color: #BFBFFF; text-decoration: none; } /* 97C4CE */
 a:visited { color: #FFBFFF; } /* 83AAB2 */
 a:hover { text-decoration: underline; }
 
+/* Box class for rounded corners */
+div.box {
+    width: 960px;
+	/* Rounded corners */
+	border-radius: 4px;
+	webkit-border-radius: 4px;
+	moz-border-radius: 4px;
+	background-color: #404040;
+	padding: 4px;
+}
+
 div#header {
-    background-color: #404040;
 	height: 64px;
 	margin: 0 0 16px 0;
 }
 
 div#content {
-    background-color: #404040;
 }
 
 div#footer {
-    background-color: #404040;
     margin: 16px 0 0 0;
 }
